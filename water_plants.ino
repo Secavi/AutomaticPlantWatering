@@ -1,6 +1,5 @@
-// Starts a water pump to water plants when the moiture values raise above the defined threshold
-// Includes RTC to maintain correct time
-// Includes DHT11 to read air temperature and humidity values
+// Starts a water pump to water plants when the moiture on the plant is low
+// Includes RTC to maintain correct time and DHT11 to read air temperature and humidity values
 // Saves the sensor values to an SD card in json format at defined interval
 // Future improvements:
 // - Add sensor to read water level on the water container and stop pump when empty
